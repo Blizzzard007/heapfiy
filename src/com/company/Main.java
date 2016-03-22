@@ -3,9 +3,25 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        int[] A = {3,2,1,4,5};
-        heapify hh = new heapify();
-        hh.heapify(A);
+        int[] A = {45,39,32,11};
+        char[][] island ={
+                {'1','0','0'},
+                {'1','0','1'},
+        };
+        numberofIsLand nn = new numberofIsLand();
+        recursion123 rr = new recursion123();
+        System.out.println(rr.input123(123456789));
+
+
+        System.out.println(nn.numIslands(island));
+        System.out.println(rr.input(1234567890));
+
+
+//        heapify hh = new heapify();
+//        hh.heapify(A);
+//        for(int i=0;i<A.length;i++){
+//            System.out.println(A[i]);
+//        }
 	// write your code here
     }
 }
