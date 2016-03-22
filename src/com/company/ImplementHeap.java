@@ -44,7 +44,7 @@ public class ImplementHeap {
     public void swap(int x,int y){
         int temp = nodes[x];
         nodes[x] = nodes[y];
-        nodes[y] = temp;
+        nodes[y] = temp;//hah
     }
 
 }
